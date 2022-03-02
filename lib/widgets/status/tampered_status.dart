@@ -15,7 +15,7 @@ class TamperedStatus extends StatelessWidget {
             color: Colors.green,
           ),
           Text(
-            'online',
+            'ok',
             style: TextStyle(color: Colors.green),
           ),
         ],
@@ -29,7 +29,7 @@ class TamperedStatus extends StatelessWidget {
             color: Colors.orange,
           ),
           Text(
-            'Offline',
+            'Tampered',
             style: TextStyle(color: Colors.orange),
           ),
         ],
