@@ -4,13 +4,13 @@ futurehome project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+The task: https://github.com/bjhandeland/fh_home_coding
 
-A few resources to get you started if this is your first Flutter project:
+Some thoughts about UX (I understand it is not a real project, but anyway :) )
+1. It’s better to split an account card and a devices list into separate screens. Our user should see just one dose of information: either account info, or the devices list. But not both at the same time: it's hard to understand information.
+2. The better choice is material list style, not table-like style. The user's gaze must move vertically, and not on Z-trajectory. 
+3. The buttons should have different emphasizes (now every button is primary (even Notes button) 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Note: some devices (Camera etc.) are added to show scrolling.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Alt text](screenshot.png?raw=true)
