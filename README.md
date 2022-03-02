@@ -11,6 +11,6 @@ Some thoughts about UX (I understand it is not a real project, but anyway :) )
 2. The better choice is material list style, not table-like style. The user's gaze must move vertically, and not on Z-trajectory. 
 3. The buttons should have different emphasizes (now every button is primary (even Notes button) 
 
-Note: one more device is added to show scrolling.
+Note: some devices (Camera etc.) are added to show scrolling.
 
 ![Alt text](screenshot.png?raw=true)
